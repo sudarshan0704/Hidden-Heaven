@@ -1,0 +1,999 @@
+nav{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   width: 101%;
+   height: 70px;
+   /* background-color: rgb(231, 42, 42); */
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   font-size: 20px;
+   text-transform: uppercase;
+   position: relative;
+   top: 10px;
+   left: -9px;
+   font-family: 'Times New Roman', Times, serif;
+
+   backdrop-filter: blur(80px);
+
+  
+   
+}
+nav>li{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+  
+}
+nav>li>a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  
+}
+span{
+    color: rgb(246, 235, 19);
+    font-family: mulish,sans sans-serif;
+     font-size: 50px;
+     font-family: "Margarine", sans-serif;
+}
+nav>header{
+    position: relative;
+    left: -150px;
+    font-family: "Margarine", sans-serif;
+}
+
+.explore
+{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    /* width: 70px;
+    height: 40px;
+     background: linear-gradient(gray,white,pink gray,pink);
+    background-clip: text;  */
+     
+}
+.explore>h1{
+    color: rgb(221, 189, 26);
+   
+    /* font-family: "Indie Flower", cursive; */
+    font-family: "Black Ops One", system-ui;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: "Lemonada", cursive;
+  font-optical-sizing: auto;
+
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    text-underline-position: above;
+
+        overflow: hidden;
+        /* border-right: 1em solid orange; */
+        white-space: nowrap;
+        
+        font-size: 4.9em;
+        width: 0;
+        transition:3s ease-in ;
+        /* font-family: "Special Elite", system-ui;
+        font-family: "Special Elite", system-ui; */
+  /* font-weight: 400; */
+  font-style: normal;
+
+        animation: typing 3s steps(19) forwards;
+        
+       
+      }
+      
+
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      .explore>p{
+        color: rgb(255, 200, 0);
+        font-size: 2em;
+      font-family: "Indie Flower", cursive;
+        text-transform: uppercase;
+        position: relative;
+        top: -40px;
+        font-weight: bold;
+        /* width: 0;
+        overflow: hidden; */
+        /* left: 30px; */
+        /* background-color: rgb(56, 56, 218); */
+        
+
+      }
+      #second{
+        font-size: 22px;
+        /* background: linear-gradient(rgb(186, 156, 22),rgb(165, 34, 34));
+        background-clip: text; */
+        color: rgb(255, 200, 0);
+        background-color: transparent;
+        font-family: "Indie Flower", cursive;
+        position: relative;
+        top: -60px;
+        left:0px ;
+       font-weight: bold;
+        white-space: nowrap;
+        text-transform: uppercase;
+      
+       
+        width: 0;
+        overflow: hidden;
+        /* animation: typing 4s steps(19)1s forwards; */
+        animation: typing 4s steps(19)1s forwards;
+        
+        
+
+      }
+      .intro{
+        width: 500px;
+        height: 500px;
+       
+        position: relative;
+        left: 950px;
+        top: -250px;
+        /* border-radius: 50px 130px 70px; */
+        background-image: url(view-natural-waterfall-landscape.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+       
+        box-shadow: 20px 20px 60px black;
+      }
+      /* body{
+        background-image: url(pexels-photo-531972.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover ;
+        background-attachment: fixed;
+      } */
+       .scroll{
+        overflow-y: scroll;
+        width: 100%;
+        height: 100vh;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: auto;
+        /* scrollbar-width: 1px;
+        scroll-behavior: unset; */
+        scrollbar-width: 10px;
+         background-image: url(beautiful-nature-landscape-with-river-vegetation.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+      background-attachment: fixed;
+       }
+       .scrollsheet2
+       {
+        width: 100%;
+       /* background-image: url(pexels-photo-531972.webp); */
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+/* background-clip: text; */
+        height: 90vh;
+        scroll-snap-align: start;
+        /* color: transparent; */
+      
+        font-weight: bolder;
+        font-size: 3.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+      
+
+        /* position: relative;
+        top: 1000px; */
+       }
+       .scrollsheet2>h1,h5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 254, 254);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* font-family: "Indie Flower", cursive; */
+        font-family: "Marhey", sans-serif;
+       
+       }
+       /* .scrollsheet2>h1:hover{
+        color: chocolate;
+       } */
+       .scrollsheet1
+       {
+       
+        width: 100%;
+        height: 90vh;
+       scroll-snap-align: start;
+        /* position: relative;
+        top: 1000px; */
+        
+       
+
+       }
+       .scrollsheet3
+       {
+       
+        width: 100%;
+        height: 90vh;
+       scroll-snap-align: start;
+        /* position: relative;
+        top: 1000px; */
+        /* background-color: rgb(255, 255, 255); */
+        
+       text-align: center;
+
+       }
+       #discover{
+        position: relative;
+        top: 15px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 2.5em;
+        font-family: 'Times New Roman', Times, serif;
+        font-family: "Marhey", sans-serif;
+        
+       }
+       .scrollsheet3>h4{
+        position: relative;
+        top: 10%;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-family: "Indie Flower", cursive;
+        text-transform: capitalize;
+        font-size:40px;
+      
+        
+       }
+       .scrollsheet3>#and{
+font-size: 50px;
+font-weight: bolder;
+color: rgb(255, 187, 0);
+/* color: white; */
+position: relative;
+left: -110px;
+font-family: 'Times New Roman', Times, serif;
+font-family: "Marhey", sans-serif;
+       }
+       .scrollsheet4
+       {
+       
+        width: 100%;
+        height: 90vh;
+       scroll-snap-align: start;
+        /* position: relative;
+        top: 1000px; */
+        /* background-color: rgb(255, 255, 255); */
+        font-size: 40px;
+       text-align: center;
+       text-transform: uppercase;
+       font-family: 'Times New Roman', Times, serif;
+       font-family: "Margarine", sans-serif;
+  
+      
+
+       }
+       .scrollsheet4>h1{
+        font-family: "Marhey", sans-serif;
+       }
+       .scrollsheet4>.cardcontainer>.card  {
+        width: 270px;
+        height: 400px;
+        /* background-color: rgb(213, 223, 223); */
+      margin-left: 60px;
+        border-radius: 30px;
+        margin-top: 30px;
+        /* transform-origin: top; */
+      /* box-shadow: 10px 10px 30% gray; */
+      backdrop-filter: blur(9px);
+      border: 1px solid gray;
+      
+  
+    
+
+       }
+       .cardcontainer
+       {
+        width: 90%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        left: 50px;
+       top: 10px;
+       text-transform: none;
+       justify-content: space-around;
+       }
+       .number{
+        position: relative;
+        top: 30px;
+        left: 20px;
+        background-color: chocolate;
+        color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid rgb(82, 80, 80);
+       }
+       .content{
+        position: relative;
+        top: 30px;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        
+        font-size: 35px;
+        /* font-weight: normal; */
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-transform: capitalize; */
+        font-family: "Handlee", cursive;
+  font-weight: 400;
+       }
+       .scrollsheet4>h1{
+        padding-top: 40px;
+        /* font-family: "Indie Flower", cursive; */
+        color:  rgb(0, 0, 0);
+       }
+       .card:hover{
+        transform: translateY(-10px);
+        transition: 0.5s;
+       }
+       .material-symbols-outlined{
+        position: relative;
+        top: 3px;
+        left: -3px;
+      }
+        
+      .scrollsheet5
+       {
+       
+        width: 100%;
+        height: 90vh;
+       scroll-snap-align: start;
+        /* position: relative;
+        top: 1000px; */
+        /* background-color: rgb(255, 255, 255); */
+        font-size: 40px;
+       text-align: center;
+       text-transform: uppercase;
+      
+
+       }
+       .paragraph{
+           width: 600PX;
+        /* background-color: rgb(232, 230, 227); */
+        position: relative;
+        top: 250px;
+        left: 450px;
+        border-radius: 50px;
+        height: 400px;
+       
+
+       }
+       .paragraph>p{
+        font-family: "Indie Flower", cursive;
+        font-size: 25px;
+        font-style: italic;
+        color: rgb(255, 255, 255);
+        font-family: "Handlee", cursive;
+        font-weight: 400;
+        text-transform: capitalize;
+       
+        
+    
+
+       }
+       .paragraph>h1{
+        font-family: "Indie Flower", cursive;
+        font-size: 50px;
+        text-decoration: dotted;
+        text-decoration: overline;
+        color: red;
+       }
+       
+ @media (max-width:900px) {
+ nav>header
+ {
+font-size: 20px;
+left: 3px;
+color: #000;
+ }
+ nav>li>a
+ {
+  font-size: 17px;
+ }
+ span {
+  font-size: 40px;
+ }
+ .material-symbols-outlined
+ {
+font-size: 20px;
+ }
+ .explore>h1
+ {
+  z-index: 1;
+  font-size: 50px;
+ }
+ .explore>p
+ {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  width: 190px;
+  backdrop-filter: blur(10px);
+  word-break: break-all;
+ }
+ #second
+ {
+  color: #000000;
+  font-size: 15px;
+  backdrop-filter: blur(10px);
+ }
+ .explore
+ {
+  top: 380px;
+  z-index: 1;
+  
+}
+.intro
+{
+  width: 60%;
+  height: 350px;
+  left: 100px;
+  top: -190px;
+
+ 
+}
+.scrollsheet2
+{
+  display: flex;
+  flex-direction: column;
+  font-size: 38px;
+}
+ }
+    
+  
+
+
+
+
+
+
+        /* upload.csss style */
+                      /* upload file style starts from here*/
+                        /* all style and responsive  design begins from here */
+
+       form{
+        position: relative;
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+       }
+       h1{
+      font-family: 'Times New Roman', Times, serif;
+      text-transform: uppercase;
+      color: #6b6e17;
+       }
+       form{
+      
+        width: 50%;
+        height: 500px;
+        position: relative;
+        top: 10px;
+       
+
+       padding-left: 30px;
+       
+
+       }
+       form>label{
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: "Handlee", cursive;
+        position: relative;
+        top: 10px;
+        
+       }
+       input,textarea{
+        width: 90%;
+        border-radius: 5px;
+       }
+       input[type=text]{
+        height: 25px;
+        position: relative;
+        top: 15px;
+        
+       }
+       input[type=file]{
+        position: relative;
+        top: 10px;
+        left: 40px;
+       border-radius: 0px
+       }
+       #map{
+        position: relative;
+        top: 19px;
+       }
+       #maptext{
+        position: relative;
+        top: 20px;
+       }
+
+       .publish{
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      position: relative;
+      top: 50px;
+      left: 280px;
+      width: 60%;
+      border-radius: 50px;
+     
+      box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.495),inset -20px -20px 60px rgba(255, 255, 255, 0.27);
+      
+
+       }
+       .image{
+       
+        width: 50%;
+        height: 500px;
+        border-radius: 30px;
+        background-image: url(Journey-cuate.png);
+      background-position: center;
+      background-size: cover;
+      border-image: fill 0 linear-gradient(#0001,#000);
+       }
+       /* #mode{
+        position: relative;
+        left: -100px;
+      } */
+       input[type=submit]{
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        position: relative;
+        left: 130px;
+        top: 10px;
+        letter-spacing: 1px;
+       
+        color: black;
+        border: none;
+        border: solid rgb(0, 0, 0);
+        font-size: 15px;
+        font-family: "Handlee", cursive;
+       }
+       input[type=submit]:hover{
+        background-color: black;
+        color: white;
+       }
+       #upload-head{
+        font-family: "Marhey", sans-serif;
+        /* font-family: "Font Awesome 5 Free"; */
+       }
+
+       @media (max-width:950px)
+       {
+        .publish
+        {
+         width: 100%;
+         height: 900px;
+         display: flex;
+         flex-direction: column;
+         left: -10px;
+         
+
+        }
+        .image
+        {
+          width: 100%;
+          top: 60px;
+          height: 400px;
+          background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      object-fit: contain;
+        }
+        .publish>input,textarea
+        {
+          width: 100%;
+        }
+        .publish>form
+        {
+width: 100%;
+        }
+        .publish>form>input[type=submit]
+        {position: relative;
+          left: 290px;
+        
+        }
+       }
+       @media (max-width:600px)
+       {
+        .publish>form>input[type=submit]
+        {
+          position: relative;
+          left: 140px;
+        }
+       }
+       /* .search{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-around;
+       background-color: rgb(255, 255, 255);
+       box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.441),inset -20px -20px  60px rgba(255, 255, 255, 0.359);
+       margin-top:1px ;
+       position: relative;
+       top: -5px;
+       height: 80px;
+      
+
+       }
+      .search>input[type=button]{
+        width: 100px;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        text-transform: capitalize;
+        font-size: 17px;
+       }
+       .search>input[type=button]:hover{
+        border: 1px solid black;
+        background-color: white;
+       }
+       input[type=search]{
+        height: 30px;
+        position: relative;
+        left: 10px;
+        top: -10px;
+
+       }
+       .search>h1{
+        position: relative;
+        left: -20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-family: "Marhey", sans-serif;
+        color: yellow;
+       }
+       .search>span{
+        position: relative;
+        top: 30px;
+       }
+
+      .com
+      {
+        width: 65%;
+      
+        background-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 60px rgb(59, 58, 58);
+        height: 350px;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        position: relative;
+        left: 190px;
+       
+      }
+      .com:hover
+      {
+        transform: translateX(0px);
+        transition: 0.5s linear;
+      }
+      .com:not(:hover)
+      {
+        transform: scale(0.9);
+
+      }
+     .com> p{
+      position: relative;
+      left: 500px;
+      font-family: 'Times New Roman', Times, serif;
+      /* font-family: "Marhey", sans-serif;
+      font-family: "Margarine", sans-serif;
+      
+      font-size: 20px;
+     
+      width: 30%;
+   
+      font-weight:bold;
+      color: blue;
+    
+     }
+     .com>img
+     {
+      position: absolute;
+      width: 400px;
+      height: 250px;
+      top:60px;
+      left:50px;
+      border-radius: 20px;
+      border: 3px solid black;
+     }
+     .com>#name
+     {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+      
+      text-transform: capitalize;
+      position: relative;
+      left: 60px;
+      top: 15px;
+     
+      width: 50%;
+      font-weight: 0;
+    
+     }
+     .com>.map
+     {
+      position: relative;
+      left:500px;
+      font-size: 20px;
+      width: 40%;
+      padding-bottom: 0px;
+     top: -30px;
+      height: 50px;
+      
+      align-items:center ;
+
+     }
+     .map>input{
+      outline: none;
+     }
+   
+      .dis
+      {
+        position: absolute;
+        left: 500px;
+        width: 400px;
+      margin-top: 10px;
+       
+        height: 150px;
+      word-wrap:break-word;
+      
+      }
+      #dishead
+      {
+        position: absolute;
+        top: 130px;
+      } */
+      /* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+ 
+
+
+
+
+
+
+
+                   /* Search Section */
+                  /* search page style AND  responsive design */
+                  /* strats from here */
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.1), inset -20px -20px 60px rgba(255, 255, 255, 0.1);
+  margin-top: 1px;
+  position: relative;
+  top: -5px;
+  height: 80px;
+  align-items: center;
+  padding: 10px;
+}
+
+.search h1 {
+  font-family: 'Marhey', sans-serif;
+  color: #f39c12;
+  margin: 0;
+}
+
+.search input[type="search"] {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.search input[type="button"] {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  text-transform: capitalize;
+  font-size: 17px;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.search input[type="button"]:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+/* Content Section */
+.com {
+  width: 65%;
+  background-color: #fff;
+  box-shadow: 10px 10px 60px rgba(59, 58, 58, 0.2);
+  height: 350px;
+  color: #000;
+  border-radius: 30px;
+  position: relative;
+  left: 190px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  transition: transform 0.5s linear;
+}
+
+
+.com p {
+  position:relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3498db;
+  margin: 10px 0;
+  left: 500px;
+}
+
+.com img {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  border: 3px solid #000;
+  position: relative;
+  top: -100px;
+}
+
+.com #name {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin: 15px 0;
+  position: relative;
+  left: 0px;
+  margin-bottom: 20px;
+}
+
+.com .map {
+  margin: 10px 0;
+  position: relative;
+  left: 500px;
+  margin-top: 0px;
+  position: relative;
+  top: -15px;
+  width: 50%;
+
+}
+
+.com .dis {
+  position: absolute;
+  left:   20px;
+  width: 400px;
+margin-top: -10px;
+ color: #000;
+  height: 150px;
+word-wrap:break-word;
+ 
+  
+}
+.com .dis>p{
+
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 941px) {
+  .search {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .search h1 {
+      margin-bottom: 10px;
+  }
+
+  .com {
+      width: 90%;
+      left: 5%;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+  }
+.com>p{
+  position:relative;
+
+  left: 10px;
+  top: 310px;
+
+}
+.com #name
+{
+  position: relative;
+  left: 0px;
+  top: -800px;
+}
+  .com img {
+      width: 60%;
+      
+      
+      height: 300px;
+      margin-top: -30px;
+  }
+  .com .map {
+    margin: 10px 0;
+    position: relative;
+    left: 10px;
+    margin-top: 0px;
+    position: relative;
+    top: 300px;
+    width: 70%;
+  
+  }
+ .com .dis{
+ 
+  left: -470px;
+top: 520px;
+
+ }
+}
+@media (max-width: 500px)
+{
+  .com img {
+    width: 100%;
+    height: 300px;
+    /* width: 500px;
+    height: 300px;
+    margin-top: -30px; */
+}
+}
+
+   
+
+
+
+
+
+                /*   upload page error handle page style */
+
+     .datahandle
+     {
+     
+      width: 400px;
+      height: 200px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 30px;
+     }
+     .datahandle>a>button
+     {
+width: 100px;
+height: 50px;
+border-radius: 20px;
+background-color: yellow;
+
+     }
+     
